@@ -95,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ],
                         ),
                         SizedBox(
-                          height: 60,
+                          height: 40,
                         ),
                       ],
                     ),
@@ -235,7 +235,6 @@ class _LoginScreenState extends State<LoginScreen> {
       padding: const EdgeInsets.symmetric(vertical: 25),
       child: Container(
         width: double.infinity,
-        height: 30,
         child: RaisedButton(
           onPressed: () {},
           elevation: 5,
