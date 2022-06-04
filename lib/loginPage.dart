@@ -235,6 +235,7 @@ class _LoginScreenState extends State<LoginScreen> {
       padding: const EdgeInsets.symmetric(vertical: 25),
       child: Container(
         width: double.infinity,
+        height: 30,
         child: RaisedButton(
           onPressed: () {},
           elevation: 5,
@@ -270,7 +271,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Image.asset("web/icons/google.jpg"),
+      child: Image.asset("web/icons/facebook.png"),
     );
   }
 
