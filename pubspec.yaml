@@ -46,7 +46,7 @@ flutter:
   assets:
 
   - web/icons/facebook.png
-  - web/icons/google.jpeg
+  - web/icons/google.jpg
   - web/icons/twitter.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
