@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'reset.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -54,9 +55,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           height: 100,
                         ),
                         Text(
-                          "Hello User! ☺️",
+                          "Welcome!",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 40,
                             fontWeight: FontWeight.bold,
                           ),
@@ -97,10 +98,6 @@ class _LoginScreenState extends State<LoginScreen> {
                         SizedBox(
                           height: 60,
                         ),
-                        Text(
-                          "الشروط والاحكام",
-                          style: TextStyle(color: Colors.white, fontSize: 10),
-                        )
                       ],
                     ),
                   ),
@@ -228,7 +225,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Container(
       alignment: Alignment.centerRight,
       child: TextButton(
-        child: Text("Forget Password !", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+        child: Text("Forgot Password ", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
         onPressed: () {},
       ),
     );
@@ -258,8 +255,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget buildFacebook() {
     return Container(
-      height: 50,
-      width: 50,
+      height: 30,
+      width: 30,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
@@ -269,8 +266,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget buildGoogle() {
     return Container(
-      height: 50,
-      width: 50,
+      height: 30,
+      width: 30,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
@@ -280,8 +277,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget buildTwitter() {
     return Container(
-      height: 50,
-      width: 50,
+      height: 30,
+      width: 30,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
