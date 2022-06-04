@@ -45,7 +45,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
   -web/icons/facebook.png
-  -web/icons/google.jpg
+  -web/icons/google.jpeg
   -web/icons/twitter.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
