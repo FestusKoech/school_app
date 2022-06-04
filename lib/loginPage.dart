@@ -274,7 +274,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Image.asset("web/icons/google.png"),
+      child: Image.asset("web/icons/google.jpg"),
     );
   }
 
