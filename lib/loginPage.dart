@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:enaz/signup.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -83,6 +84,13 @@ class _LoginScreenState extends State<LoginScreen> {
                           height: 30,
                         ),
                         buildLoginButton(),
+                        SizedBox(
+                          height: 30,
+                        ),
+                        SizedBox(
+                          height: 30,
+                        ),
+                        buildSignupButton(),
                         SizedBox(
                           height: 30,
                         ),
@@ -245,6 +253,33 @@ class _LoginScreenState extends State<LoginScreen> {
           padding: EdgeInsets.all(30),
           child: Text(
             "Login",
+            style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget buildSignupButton() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 25),
+      child: Container(
+        width: double.infinity,
+        child: RaisedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Signup()),
+            );
+          },
+          elevation: 5,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+          ),
+          color: Colors.black,
+          padding: EdgeInsets.all(30),
+          child: Text(
+            "Signup",
             style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
           ),
         ),
