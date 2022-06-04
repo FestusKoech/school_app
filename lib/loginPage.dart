@@ -12,7 +12,7 @@ class _LoginScreenState extends State<LoginScreen> {
   bool sec = true;
   var visable = Icon(
     Icons.visibility,
-    color: Color(0xff4c5166),
+    color: Colors.orange[400],
   );
   var visableoff = Icon(
     Icons.visibility_off,
@@ -263,7 +263,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Image.asset("assets/facebook.png"),
+      child: Image.asset("web/icons/facebook.png"),
     );
   }
 
@@ -274,7 +274,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Image.asset("assets/search.png"),
+      child: Image.asset("web/icons/google.png"),
     );
   }
 
@@ -285,7 +285,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Image.asset("assets/twitter.png"),
+      child: Image.asset("web/icons/twitter.png"),
     );
   }
 }
