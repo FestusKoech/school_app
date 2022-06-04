@@ -66,11 +66,11 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         buildEmail(),
                         SizedBox(
-                          height: 50,
+                          height: 30,
                         ),
                         buildPassword(),
                         SizedBox(
-                          height: 50,
+                          height: 30,
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -115,15 +115,15 @@ class _LoginScreenState extends State<LoginScreen> {
       children: [
         Text(
           "Email",
-          style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+          style: TextStyle(color: Colors.black, fontSize: 16, fontWeight: FontWeight.bold),
         ),
         SizedBox(
           height: 10,
         ),
         Container(
-          height: 60,
+          height: 25,
           alignment: Alignment.centerLeft,
-          decoration: BoxDecoration(color: Color(0xffebefff), borderRadius: BorderRadius.circular(10), boxShadow: [
+          decoration: BoxDecoration(color: Color(0xffebefff), borderRadius: BorderRadius.circular(15), boxShadow: [
             BoxShadow(
               color: Colors.black26,
               offset: Offset(0, 2),
@@ -167,7 +167,7 @@ class _LoginScreenState extends State<LoginScreen> {
               BoxShadow(color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
             ],
           ),
-          height: 60,
+          height: 40,
           child: TextField(
             obscureText: sec,
             style: TextStyle(color: Colors.black),
