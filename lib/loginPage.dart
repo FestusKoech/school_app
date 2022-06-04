@@ -121,7 +121,7 @@ class _LoginScreenState extends State<LoginScreen> {
           height: 10,
         ),
         Container(
-          height: 25,
+          height: 40,
           alignment: Alignment.centerLeft,
           decoration: BoxDecoration(color: Color(0xffebefff), borderRadius: BorderRadius.circular(15), boxShadow: [
             BoxShadow(
@@ -224,7 +224,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Container(
       alignment: Alignment.centerRight,
       child: TextButton(
-        child: Text("Forgot Password ", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+        child: Text("Forgot Password?", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
         onPressed: () {},
       ),
     );
@@ -241,11 +241,11 @@ class _LoginScreenState extends State<LoginScreen> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
           ),
-          color: Color(0xff3c6970),
+          color: Colors.black,
           padding: EdgeInsets.all(30),
           child: Text(
             "Login",
-            style: TextStyle(fontSize: 10, color: Colors.white, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
           ),
         ),
       ),
